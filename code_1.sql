@@ -1,5 +1,7 @@
 -- From the IMDb dataset, print the title and rating of 
 --those movies which have a genre starting from 'C' with a budget higher than 4 Crore.
+
+SOURCE E:\Data_science_project\SQL_programs\db.sql
 SELECT Title,Rating
 FROM IMDB;
 INNER JOIN genre
